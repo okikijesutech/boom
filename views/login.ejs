@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Boom Box</title>
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    <div class="logo">
+      <img src="images/Boombox-logo-11.svg" alt="boom box logo">
+    </div>
+    <h1>Login</h1>
+    <div class="container">
+      <form class="login-form" action="/login" method="post">
+        <label for="text">Username</label>
+        <input type="email" class="input-css" name="username" placeholder="Input your username" value="">
+        <label for="password">Password</label>
+        <input type="password" class="input-css" name="pasword" placeholder="Input your password" value="">
+        <button class="btn btn-submit" type="submit" name="button">Continue</button>
+      </form>
+      <h5>or</h5>
+      <div class="alternative-button">
+        <button class="btn alt-btn" type="button" name="button">Continue with facebook</button>
+        <button class="btn alt-btn" type="button" name="button">Continue with Apple</button>
+        <button class="btn alt-btn" type="button" name="button">Continue with Twitter</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+.image {
+  width: 300px;
+  height: auto;
+}
+.image img {
+  width: 300px;
+  height: auto;
+}
+.container-1 {
+  background-image: url("../images/coverq.jpg");
+  height: 500px;
+  padding-left: 550px;
+}
+.container-2 {
+  background-image: url("../images/covers.jpg");
+  height: 500px;
+  padding-left: 550px;
+}
+.container-3 {
+  background-image: url("../images/Cover.jpg");
+  height: 500px;
+  padding-left: 550px;
+}
+.container-4 {
+  background-image: url("../images/covert.jpeg");
+  height: 500px;
+  padding-left: 550px;
+}
+.container-5 {
+  background-image: url("../images/coverj.jpg");
+  height: 500px;
+  padding-left: 550px;
+}
+.container-6 {
+  background-image: url("../images/covern.jpeg");
+  height: 500px;
+  padding-left: 550px;
+}
+.container-7 {
+  background-image: url("../images/coverj.jpg");
+  height: 500px;
+  padding-left: 550px;
+}
+.container-8 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+.container-8::before {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  opacity: 0.4;
+
+}
+.image img {
+  width: 200px;
+  height: 200px;
+}
+.image {
+  padding-top: 50px;
+}
+.btn-featured-1 {
+  display: block;
+  border: white solid 1px;
+  color: white;
+  background: transparent;
+  border-radius: 2px 2px;
+  width: 175px;
+  padding: 1%;
+  margin: 10px 0;
+}
+.btn-featured-2 {
+  display: block;
+  border: white solid 1px;
+  color: black;
+  background: white;
+  border-radius: 2px 2px;
+  width: 175px;
+  padding: 1%;
+  margin: 10px 0;
+}

@@ -1,0 +1,73 @@
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 0 27%;
+}
+h1 {
+  margin-top: 0;
+  margin-left: 250px;
+}
+.signup-logo img {
+  margin-left: 195px;
+  width: 200px;
+  height: 200px;
+}
+/* input css */
+.input-css {
+  border: 1px white solid;
+  border-radius: 6px;
+  padding: 1%;
+  background: transparent;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+/* container styling */
+.container {
+  background: #363537;
+  padding: 1% 4% 4%;
+  width: 600px;
+}
+.alternative-button {
+  display: flex;
+  flex-direction: column;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* input form styling */
+.input-css {
+  border: 0 0 0 1px white;
+  background: transparent;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+/* buttons styling */
+.btn {
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.btn-submit {
+  border: solid white 1px;
+}
+.btn-submit:hover {
+  background: transparent;
+  color: white;
+  border: solid 1px white;
+  transition: .5s;
+}
+.alt-btn {
+  background: transparent;
+  border: solid 1px white;
+  margin-bottom: 7px;
+  color: white;
+}
+.alt-btn:hover {
+  background: white;
+  color: black;
+  transition: .1s;
+}

@@ -1,0 +1,483 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+}
+header {
+  background: linear-gradient(120deg, #500919 0%, #00000C 50%, #061829 100%);
+}
+nav {
+  display: flex;
+  background: transparent;
+}
+.logo {
+  margin-right: 300px;
+  padding: 1%;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+}
+.nav-list-group-1 {
+  margin-right: 70px;
+}
+.nav-list-group-2 {
+  margin-right: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+a:hover {
+  color: #500919;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.btn {
+  border: 1px solid white;
+  border-radius: 4px;
+  background: white;
+}
+.nav-btn {
+  width: 100px;
+  padding: 5%;
+}
+.nav-btn:hover {
+  cursor: pointer;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.header {
+  display: flex;
+}
+.header-image img {
+  width: 650px;
+  height: auto;
+}
+.header-content h1 {
+  letter-spacing: 9px;
+  font-size: 60px;
+}
+.header-content p {
+  width: 450px;
+  line-height: 25px;
+}
+.header-btn {
+  padding: 1.5%;
+  width: 150px;
+  margin-left: 200px;
+}
+/* features section */
+#featured-section {
+  background:  #00000C;
+  padding: 1.5%;
+}
+#featured-section h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.feature h3 {
+  letter-spacing: 3px;
+  font-size: 23px;
+}
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 250px;
+}
+.feature {
+  font-size: 20px;
+}
+.feature p {
+  width: 350px;
+  font-size: 18px;
+}
+/* the pricing section */
+#price-section {
+  background: #061829;
+  padding: 1%;
+}
+#price-section h3 {
+  text-align: center;
+}
+.price-secton-heading-p {
+  font-size: 12px;
+  text-align: center;
+}
+.pricing {
+  display: flex;
+  justify-content: space-around;
+}
+.price {
+  background: white;
+  padding: 2%;
+  border-radius: 6px;
+  width: 200px;
+  text-align: center;
+}
+.price h4 {
+  color: black;
+  font-size: 25px;
+}
+.price p {
+  color: #000;
+  font-size: 30px;
+  margin: 0;
+  display: inline-block;
+}
+.price span {
+  color: #000;
+}
+.price li p {
+  color: #00000C;
+  font-size: 12px;
+  margin: 12px 0;
+}
+.price ol {
+  text-align: left;
+  list-style: lower-roman;
+  display: block;
+  text-decoration-color: #000;
+}
+.price a {
+  color: #EF2D56;
+  display: block;
+  margin-top: 10px;
+}
+.pricing-btn {
+  background: #363537;
+  color: white;
+  padding: 5%;
+  width: 120px;
+}
+.pricing-btn:hover {
+  cursor: pointer;
+}
+.pricing-cta {
+  margin-left: 570px;
+  margin-top: 60px;
+  padding: 1%;
+  width: 200px;
+}
+.pricing-cta:hover {
+  cursor: pointer;
+}
+.price-section-p {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#price-section img {
+  width: 200px;
+}
+.images-array img {
+  width: 300px;
+  height: 200px;
+  padding: 0 20px;
+  transition: 0.5s;
+}
+.images-animation  {
+  /* width: 600px; */
+  /* height: 600px; */
+  opacity: .75;
+  z-index: 1;
+}
+/* faq section */
+.gradient-bg {
+  background: linear-gradient(#061829 10%, #00000c);
+  padding: 1%;
+  padding-bottom: 100px;
+}
+.gradient-bg h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+.gradient-bg h3 {
+  font-size: 20px;
+}
+.gradient-bg p {
+  width: 300px;
+  line-height: 25px;
+}
+.faq {
+  display: flex;
+  justify-content: space-around;
+}
+/* the call to action section */
+.cta {
+  display: flex;
+  background: black;
+}
+.cta-image img {
+  width: 600px;
+}
+.cta-content h3 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.cta-content p {
+  font-size: 23px;
+  letter-spacing: 5px;
+}
+footer {
+  background: #00000c;
+  padding: 5% 1% 1% 6.5%;
+}
+.footer-main {
+  display: flex;
+}
+.footer-main h4 {
+  font-size: 18px;
+  font-weight: 50;
+}
+.footer-main p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: full-width;
+}
+.access {
+  margin-right: 150px;
+}
+.socials {
+  margin-top: 50px;
+  height: 18px;
+}
+.socials:hover {
+  cursor: pointer;
+}
+.copyrights-and-legals {
+  display: flex;
+  font-size: 15px;
+  margin-top: 80px;
+}
+.copy-right {
+  display: flex;
+  margin-right: 90px;
+}
+.legal-document {
+  display: flex;
+  margin-right: 50px;
+}
+.legal-document p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: justify;
+}
+.legal-document p {
+  margin-right: 20px;
+}
+/* featured pages section */
+ .container-1 {
+   position: relative;
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.container-1::before {
+  content: "";
+  background-image: url('../images/coverq.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.75;
+}
+.container-2 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-2::before {
+ content: "";
+ background-image: url('../images/covers.jpg');
+ background-size: cover;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ z-index: -1;
+ opacity: 0.5;
+}
+.container-3 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-3::before {
+ content: "";
+ background-image: url('../images/cover.jpg');
+ background-size: cover;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ z-index: -1;
+ opacity: 0.5;
+}
+.container-4 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-4::before {
+ content: "";
+ background-image: url('../images/covert.jpg');
+ background-size: cover;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ z-index: -1;
+ opacity: 0.75;
+}
+.container-5 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-5::before {
+ content: "";
+ background-image: url('../images/coverj.jpg');
+ background-size: cover;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ z-index: -1;
+ opacity: 0.5;
+}
+.container-6 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-6::before {
+ content: "";
+ background-image: url('../images/covern.jpeg');
+ background-size: cover;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ z-index: -1;
+ opacity: 0.5;
+}
+.container-7 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-7::before {
+ content: "";
+ background-image: url('../images/coverj.jpg');
+ background-size: cover;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ z-index: -1;
+ opacity: 0.5;
+}
+.container-8 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-8::before {
+ content: "";
+ background-image: url('../images/cover.jpg');
+ background-size: cover;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ z-index: -1;
+ opacity: 0.5;
+}
+.image img {
+  width: 200px;
+  height: 200px;
+}
+.image {
+  padding-top: 50px;
+}
+.btn-featured-1 {
+  display: block;
+  border: white solid 1px;
+  color: white;
+  background: transparent;
+  border-radius: 2px 2px;
+  width: 175px;
+  padding: 1%;
+  margin: 10px 0;
+  transition: 0.3s;
+}
+.btn-featured-1:hover {
+  background: white;
+  color: black;
+  width: 250px;
+}
+.btn-featured-2 {
+  display: block;
+  border: white solid 1px;
+  color: black;
+  background: white;
+  border-radius: 2px 2px;
+  width: 175px;
+  padding: 1%;
+  margin: 10px 0;
+  transition: 0.3s;
+}
+.btn-featured-2:hover {
+  background: transparent;
+  color: white;
+  width: 250px;
+}
